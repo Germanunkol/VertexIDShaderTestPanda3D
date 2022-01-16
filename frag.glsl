@@ -3,7 +3,9 @@
 
 in vec3 col;
 
+out vec4 fragColor;
+
 void main()
 {
-	gl_FragColor = vec4( col.xyz, 1 );
+	fragColor = vec4( col.xyz, 1 );
 }

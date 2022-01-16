@@ -1,8 +1,5 @@
 #version 430
 
-in int gl_VertexID;
-in int gl_BaseVertex;
-
 in vec4 p3d_Vertex;
 
 uniform mat4 p3d_ModelViewProjectionMatrix;
